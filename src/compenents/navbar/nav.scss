@@ -1,0 +1,10 @@
+.Link{
+    text-decoration: none;
+    color:rgb(90, 92, 92);
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    &:hover{
+        color: rgb(63, 64, 64);
+    }
+}

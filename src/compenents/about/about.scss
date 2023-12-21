@@ -1,0 +1,65 @@
+.hero {
+    background-image: url('../../Media/rainy-day-3443977.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #000000;
+    text-align: center;
+    padding: 140px 0;
+    backdrop-filter: blur(5px);
+    position: relative;
+    z-index: 1;
+
+    .hero-content {
+        max-width: 800px;
+        margin: 10% auto;
+        color: #f9f9f9;
+
+        h1 {
+
+            /* margin: 20px; */
+            color: #202020;
+            text-transform: uppercase;
+            letter-spacing: -2px;
+            display: block;
+            margin: 11px 0 17px 0;
+            font-size: 80px;
+            line-height: 80px;
+            color: #f1ebe5;
+            text-shadow: 0 13.36px 8.896px #7c7c7c,0 -2px 1px #fff;
+            letter-spacing: -4px;
+            font-weight: 700;
+        }
+    }
+}
+
+
+.allcon {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 5%;
+    padding: 50px 20px;
+    background-color: rgba(222, 222, 222, 0.959);
+    border-radius: 5px;
+    position: relative;
+    z-index: 2;
+    margin-top: -13%;
+    margin-bottom: 15%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+    img {
+        width: 30%;
+        height: 40%;
+        min-width: 300px;
+        border-radius: 5px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    }
+
+    p {
+        width: 30%;
+        height: 40%;
+        min-width: 300px;
+    }
+}

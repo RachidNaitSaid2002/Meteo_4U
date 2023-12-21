@@ -1,0 +1,44 @@
+.foter {
+    padding-top: 50px;
+    text-align: center;
+    height: 40vh;
+
+    .social {
+        padding-top: 20px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        ul {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            width: 40%;
+            li {
+                padding: 8px;
+                border-radius: 50%;
+                border: 1px solid black;
+                list-style-type: none;
+                cursor: pointer;
+                &:hover{
+                    transform: scale(1.1);
+                }
+                img {
+                    height: 30px;
+                    width: 30px;
+
+                }
+            }
+        }
+    }
+
+    .copy {
+        padding-bottom: 20px;
+        padding-top: 20px;
+
+        p {
+            font-weight: 500;
+        }
+    }
+}
