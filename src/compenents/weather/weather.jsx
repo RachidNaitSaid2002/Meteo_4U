@@ -1,24 +1,17 @@
 import './weather.scss';
-import sky from '../../Media/sky.mp4';
-import sun from '../../Media/sun.mp4';
-import rain from '../../Media/rain.mp4';
-import video from '../../Media/video.mp4';
 import { useParams } from "react-router-dom";
 import React, { useState, useEffect } from "react";
 import axios from 'axios';
-import loadingVideo from '../../Media/loading.mp4';
 
 const Weather = () => {
     const { city } = useParams();
     console.log(city);
 
     const [apiData, setApiData] = useState(null);
-    const [loading, setLoading] = useState(false);
     const [datafound, setDatafound] = useState(false);
     const [imgfound, setImagfound] = useState(false);
     const [imgData, setimgData] = useState(null);
     const [isLoading, setIsLoading] = useState(true);
-    const [secdata, setSecdata] = useState(null);
 
     useEffect(() => {
         const fetchData = async () => {

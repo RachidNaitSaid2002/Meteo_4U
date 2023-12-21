@@ -1,5 +1,4 @@
 import './about.scss';
-import img from '../../Media/rainy-day-3443977.jpg';
 import img2 from '../../Media/pexels-egor-kamelev-813871.jpg';
 import img3 from '../../Media/pexels-sakina-fayyaz-19030044.jpg';
 const About = () => {

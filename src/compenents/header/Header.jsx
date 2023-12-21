@@ -2,7 +2,6 @@ import './header.scss';
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import vid from "../../Media/video.mp4";
-import { Link } from 'react-router-dom';
  
 const Header = () => {
   return (
